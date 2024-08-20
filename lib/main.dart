@@ -13,6 +13,6 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     SystemUiOverlayStyle(statusBarColor: Colors.transparent);
-    return const MaterialApp(home: Home());
+    return const MaterialApp(debugShowCheckedModeBanner: false, home: Home());
   }
 }
